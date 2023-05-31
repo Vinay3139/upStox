@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 28px;
+    
+}
+
+.mainContainer{
+
+   display: flex; 
+   width: 40%;
+    margin-left: 26%
+}
+
+.Onhover{
+    margin-left:350px ;
+}
+
+.watchList :active{
+    background-color:green
+}
+
+.stock_Exchange{
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    margin-left:10px ;
+    
+}
+
+.Icon{
+   
+    width: 30px
+}
+
+.icon_Container{
+    width: 50px;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    color: green;
+  }
+  
+  .stockPrice {
+    color: red;
+  }
+
+  .active{
+    color:blue;
+    cursor: pointer;
+  }
+
+  .watchList :hover{
+    cursor: pointer;
+  }
+
+  .green{
+    color: green;
+  }
+
+  .red{
+    color: red;
+  }
+
+  .watchLists{
+    margin-left: 54px;
+  }
